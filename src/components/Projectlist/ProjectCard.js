@@ -16,6 +16,9 @@ function ProjectCard(props) {
         <Button className="viewbtn" variant="primary" href={props.ghLink} target="_blank">
           View
         </Button>
+        <Button className="viewbtn" variant="primary" href={props.gitHubLink} target="_blank">
+          Git Hub
+        </Button>
         {"\n"}
         {"\n"}
 

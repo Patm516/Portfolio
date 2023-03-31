@@ -210,7 +210,9 @@
   margin-top: 50px;
   max-width: 550px;
   height: 400px;
-  background-image: url(../Assets/Web-designer-1024x821.webp);
+  border-radius: 50px;
+  opacity: 85%;
+  background-image: url(../Assets/compImg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -390,6 +392,7 @@
 }
 .viewbtn {
   display: flex;
+  margin: 15px;
   align-items: center;
   justify-content: center;
   font-size: 18px;
@@ -448,9 +451,12 @@
 .contactbtn {
   display: block;
   margin: 0 auto;
-  width: 150px;
+  padding: 5px;
+  color: blue;
+  width: auto;
   height: 50px;
   border: solid 2px;
+  border-color: #191919;
   background-color: transparent;
   letter-spacing: 2px;
 }

@@ -18,6 +18,7 @@ function App() {
   console.log(mousePosition);
 
   useEffect(() => {
+    document.title = "Magennis Portfolio"
     const mouseMove = e => {
       setMousePosition({
         x: e.clientX,

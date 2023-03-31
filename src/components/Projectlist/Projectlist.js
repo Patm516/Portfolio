@@ -2,8 +2,8 @@ import React from 'react'
 import '../../pages/style.css';
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from 'react-bootstrap'
-import useradminpanel from '../../Assets/Admin-Panel-Dashboard.png'
-import olximage from '../../Assets/olx-clone image.png'
+import useradminpanel from '../../Assets/Weather.png'
+import olximage from '../../Assets/mcuImg.png'
 import netfliximage from '../../Assets/React-App-netflix-clone.png'
 import gridlinesbuilders from '../../Assets/Gridlinesbuilders.png'
 import charlespizza from '../../Assets/Charlestown-Pizza.png'
@@ -19,9 +19,10 @@ function Projectlist() {
               <ProjectCard
                 imgPath={useradminpanel}
                 isBlog={false}
-                title="Dashboard Panel"
-                description="User Admin Dashboard created with React js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build this entire application. This application consists of Light and Dark Mode, four different Charts, three different Data Table Pages, FAQ Page, Form Page, and Calendar Integration."
-                ghLink="https://rahul-dashboard-pannel.netlify.app"
+                title="Weather App"
+                description="A simple weather app to get the current weather from any city in the world. The user's query is sent to the Open Weather API, and the response is processed to display requested information. This was built using React.js and Open Weather APIs. Try it out! "
+                ghLink="https://weather-app-k9g6.onrender.com/#"
+                gitHubLink="https://github.com/Patm516/Weather-app-"
               />
             </Col>
 
@@ -29,9 +30,11 @@ function Projectlist() {
               <ProjectCard
                 imgPath={olximage}
                 isBlog={false}
-                title="Olx-Clone"
+                title="Mcu Hero App"
                 description="Olx-clone builds with react js. using firebase as a backend and deploying in firebase. Olx-Clone is a potential classified advertisement website that categorizes objects in a user-friendly manner & displays them as advertisements.. Classifieds can be posted that involve selling, and buying using React-router, context, react hooks."
-                ghLink="https://olx-clone-rahul.netlify.app/"
+                ghLink="https://mcu-front-end-vhla.onrender.com/"
+                gitHubLink="https://github.com/Patm516/Mcu-front-end"
+
               />
             </Col>
 
